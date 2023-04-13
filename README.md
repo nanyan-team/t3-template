@@ -1,5 +1,9 @@
 # repo name here (t3-template)
 
+Create new project with t3-template
+
+`npx degit nanyan-team/t3-template <my-project>`
+
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
 ## What this app is made with?
