@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is checking PR 🚀
 on:
   pull_request:
     types: [open, synchronize, reopened]
-    branches: ['release/**']
+    branches: ['main', 'release/**']
     paths: ['**.tsx', '**.ts', '**.js', '**.cjs', '**.mjs']
 jobs:
   Linting:
